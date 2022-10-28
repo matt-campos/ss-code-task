@@ -8,6 +8,11 @@
 
     <ItemGroup>
       <PackageReference Include="FluentMigrator" Version="3.3.2" />
+      <PackageReference Include="linq2db" Version="4.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AppCode.Core\AppCode.Core.csproj" />
     </ItemGroup>
 
 </Project>

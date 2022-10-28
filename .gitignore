@@ -126,6 +126,7 @@ nunit-*.xml
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
+[Oo]bj/
 dlldata.c
 
 # Benchmark Results
@@ -435,3 +436,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
+AppCode.Infrastructure/obj/project.assets.json
+AppCode.Infrastructure/obj/Debug/net6.0/AppCode.Infrastructure.assets.cache
