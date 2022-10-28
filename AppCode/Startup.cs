@@ -12,6 +12,8 @@ namespace AppCode
 {
     public class Startup
     {
+        // todo configure DI and add controller end points.
+        
         public virtual void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();

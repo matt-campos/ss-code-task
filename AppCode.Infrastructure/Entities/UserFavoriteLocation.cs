@@ -1,6 +1,6 @@
 namespace AppCode.Infrastructure.Entities;
 
-public sealed class UserFavoriteLocation : BaseEntity
+internal sealed class UserFavoriteLocation : BaseEntity
 {
     public int Id { get; set; }
     

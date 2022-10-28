@@ -10,6 +10,7 @@ namespace AppCode.Dev
 
     public class DevStartup: Startup
     {
+        // todo : wire up DI and controller discovery , etc.
         // usually the configuration will be injected, but we're not doing that by default in Startup
         // so we'll have here commented for convenience
         // public DevStartup(IConfiguration configuration): base(configuration)

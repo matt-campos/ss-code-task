@@ -1,6 +1,6 @@
 namespace AppCode.Infrastructure.Entities;
 
-public sealed class UserAccount : BaseEntity
+internal sealed class UserAccount : BaseEntity
 {
     public string Name { get; set; }
     
